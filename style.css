@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background-color: rgb(203, 200, 200);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+
+.logo{
+    text-decoration: none;
+    font-size: 1.8em;
+    color: black;
+    font-weight: 700;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.navigation a:hover{
+    color: rgb(255, 145, 0);
+}
+
+.mai {
+    position: absolute;
+    top: 200px;
+    left: 220px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(imgs/sun.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main h2{
+    color: aliceblue;
+    font-size: 2.3em;
+    font-weight: 600;
+}
+
+.main h3{
+    color: rgb(255, 153, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.botten{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: coral;
+    font-size: 2.2em;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0.42375em 0.8875em;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.social{
+    padding: 25px;
+    
+}
+.social a{
+    padding-right: 60px;
+    font-size: 2.3em;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.botten:hover{
+    background-color: chocolate;
+}
+
+section{
+    background-color: rgb(203, 200, 200);
+}
+
+.projects h1{
+    text-align: center;
+    padding-top: 60px;
+    color: rgb(255, 153, 0);
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 40px;
+    transition: 0.7s;
+    margin-bottom: 100px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.serv{
+    width: 100%;
+    min-height: 100vh;
+    background: url(imgs/sun.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.serv h1{
+    text-align: center;
+    padding: 30px;
+    color: rgb(222, 96, 0);
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 65px;
+}
+
+
+
+.cards2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.car {
+    background-color: rgb(252, 171, 120);
+    border-radius: 15px;
+    width: 400px;
+    height: 420px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.car h2{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    color: rgb(85, 94, 95);
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.car p {
+    font-size: 25px;
+    padding: 22px;
+}
+
+
+
+.car:hover {
+    transform: scale(1.1);
+}
+
+.icon{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.contact{
+   background-color: rgb(255, 255, 255);
+}
+
+.contact h1{
+    
+    padding: 30px;
+    margin-left: 40px;
+    color: rgb(222, 96, 0);
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 65px;
+
+}
+
+.in{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    
+}
+
+.informations{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+textarea{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(249, 219, 183);
+}
+
+.bt{
+    margin-left: 30px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(120, 120, 120);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:567px){
+
+    header{
+        background-color: rgb(203, 200, 200);
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 30px;
+    }
+
+    .logo{
+        text-decoration: none;
+        font-size: 1.4em;
+        color: black;
+        font-weight: 700;
+    }
+
+    .navigation a{
+        text-decoration: none;
+        font-size: 0.8em;
+        font-weight: 500;
+        padding-left: 10px;
+        color: rgb(0, 0, 0);
+    }
+
+    .mai {
+        position: absolute;
+        top: 170px;
+        left: 50px;
+    }
+
+    .in{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+        
+    }
+
+    footer p{
+
+        font-size: 12px;
+
+    }
+
+    .card{
+        margin: 30px;
+        transition: 0.7s;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media(min-width: 568px) and (max-width: 960px){
+
+    header{
+        background-color: rgb(203, 200, 200);
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 100px;
+    }
+
+    .logo{
+        text-decoration: none;
+        font-size: 1.5em;
+        color: black;
+        font-weight: 700;
+    }
+
+    .navigation a{
+        text-decoration: none;
+        font-size: 0.9em;
+        font-weight: 500;
+        padding-left: 9px;
+        color: rgb(0, 0, 0);
+    }
+
+    .mai {
+        position: absolute;
+        top: 170px;
+        left: 80px;
+    }
+
+    .in{
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+        
+    }
+
+    .card{
+        margin: 40px;
+        transition: 0.7s;
+        margin-bottom: 50px;
+    }
+
+    footer p{
+
+        font-size: 17px;
+
+    }
+}
