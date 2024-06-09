@@ -276,6 +276,11 @@ footer{
         color: rgb(0, 0, 0);
     }
 
+    .social{
+    padding: 10px;
+    
+}
+
     .mai {
         position: absolute;
         top: 170px;
@@ -296,6 +301,13 @@ footer{
         font-size: 12px;
 
     }
+    .icon{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    transition: 0.5s;
+}
 
     .card{
         margin: 30px;
